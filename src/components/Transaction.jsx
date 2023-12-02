@@ -81,7 +81,7 @@ const Transaction = () => {
                     <div>
                         <fieldset className='border w-2/4 rounded-full text-[#fff] border-[#fff] transition-all ease-in hover:text-[#F9FD6D] hover:border-[#F9FD6D]'>
                             <legend className='ml-3'>Wallet Address</legend>
-                            <input ref={walletRef} className=' focus:outline-none bg-transparent px-4 pb-2 m-0 ' placeholder='0x71C7656....' />
+                            <input ref={walletRef} className=' focus:outline-none bg-transparent px-4 pb-2 m-0 w-full' placeholder='0x71C7656....' />
                         </fieldset>
                         {walletError ? <span className='ml-5 text-red-500'>{walletError}</span> : null}
                     </div>
@@ -89,7 +89,7 @@ const Transaction = () => {
                     <div>
                         <fieldset className='border w-2/4 rounded-full text-[#fff] border-[#fff] transition-all ease-in hover:text-[#F9FD6D] hover:border-[#F9FD6D]'>
                             <legend className='ml-3'>Amount</legend>
-                            <input ref={amountRef} type='number' className=' focus:outline-none bg-transparent px-4 pb-2 m-0 ' placeholder='Enter the amount' />
+                            <input ref={amountRef} type='number' className=' focus:outline-none bg-transparent px-4 pb-2 m-0 w-full' placeholder='Enter the amount' />
                         </fieldset>
                         {amountError ? <span className='ml-5 text-red-500'>{amountError}</span> : null}
                     </div>
