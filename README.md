@@ -1,8 +1,54 @@
-# React + Vite
+# Frontend React.js Developer Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a simplified web application designed to evaluate the front-end development skills using React.js, Tailwind CSS, and Firebase. It features a multi-page layout with form input validation, seamless navigation, error handling, and data visualization using a chart library.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Objective
+
+The goal of this assignment is to demonstrate the ability to create a web application with the following functionalities:
+
+- Use of template libraries for UI design
+- Seamless navigation using React Router
+- Form input validation and error handling
+- Interaction with Firebase Firestore for data storage
+- Data fetching and visualization from an external API
+
+## Pages
+
+- **Home**: A landing page with a creative design.
+- **Transaction**: A form that captures and validates the user's wallet address and amount, and stores it in Firestore.
+- **Data**: A page that fetches data from an external API, filters it, and displays it in a table and pie chart.
+
+## Technologies Used
+
+- **React JS**: For building the user interface.
+- **Tailwind CSS**: For styling the application.
+- **Firebase**: For the Firestore database to store transaction data.
+- **Axios/Fetch API**: For making API requests.
+- **D3.js/Recharts/Highcharts**: For data visualization.
+
+## Setup and Installation
+
+To get this project up and running on your local machine, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/dawoodtrumboo/sharpe-ai-assignment
+
+2. Install Modules:
+    ```npm install
+
+3. Create firebaseConfig.js:
+    ```const firebaseConfig = {
+        apiKey: "Your Key",
+        authDomain: "Your Domain",
+        databaseURL: "Your Database URL",
+        projectId: "Your ProjectID",
+        storageBucket: "Your Storage Bucket",
+        messagingSenderId: "Your SenderID",
+        appId: "Your AppID"
+        };
+
+4. Run the App
+   ``` npm run dev
