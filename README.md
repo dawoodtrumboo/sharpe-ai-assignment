@@ -33,11 +33,11 @@ The goal of this assignment is to demonstrate the ability to create a web applic
 To get this project up and running on your local machine, follow these steps:
 
 1. Clone the repository:
-   ```bash
+   `bash`
    git clone https://github.com/dawoodtrumboo/sharpe-ai-assignment
 
 2. Install Modules:
-    ```npm install
+    `npm install`
 
 3. Create firebaseConfig.js:
     ```const firebaseConfig = {
@@ -51,4 +51,4 @@ To get this project up and running on your local machine, follow these steps:
         };
 
 4. Run the App
-   ``` npm run dev
+   `npm run dev`
