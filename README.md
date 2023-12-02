@@ -33,7 +33,7 @@ The goal of this assignment is to demonstrate the ability to create a web applic
 To get this project up and running on your local machine, follow these steps:
 
 1. Clone the repository:
-   `bash`
+   ```bash
    git clone https://github.com/dawoodtrumboo/sharpe-ai-assignment
 
 2. Install Modules:
