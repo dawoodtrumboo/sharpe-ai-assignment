@@ -40,7 +40,11 @@ To get this project up and running on your local machine, follow these steps:
     `npm install`
 
 3. Create firebaseConfig.js:
-    ```const firebaseConfig = {
+    ```
+        import { initializeApp } from "firebase/app";
+        import {getFirestore} from 'firebase/firestore'
+        
+        const firebaseConfig = {
         apiKey: "Your Key",
         authDomain: "Your Domain",
         databaseURL: "Your Database URL",
@@ -49,6 +53,9 @@ To get this project up and running on your local machine, follow these steps:
         messagingSenderId: "Your SenderID",
         appId: "Your AppID"
         };
+
+        export const app = initializeApp(firebaseConfig);
+        export const db = getFirestore(app)
 
 4. Run the App
    `npm run dev`
